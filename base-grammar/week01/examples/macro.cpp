@@ -9,4 +9,5 @@ int main(int argc, char *argv[])
   {
     cout << i << ": " << argv[i] << endl;
   }
+  cout << 2 * PI * 3 << endl;
 }
