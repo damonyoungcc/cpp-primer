@@ -1,3 +1,5 @@
+// string的简单使用
+
 #include <iostream>
 #include <string>
 using namespace std;
