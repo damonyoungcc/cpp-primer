@@ -1,19 +1,25 @@
+// 1. 提示输入两个数字，输入后算出两个数字乘积
+// 2. 编译后在命令行输入两个数字参数算出乘积
+// 3. 输入的不是数字字符，则提示输入错误
+// 4. 输入的数字越界
+
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-int main(int argc, char *argv[])
+int product(int a, int b)
 {
-  int a, b;
-  if (argc != 3)
-    cout << "Please input two integers" << endl;
-  else
-    cout << "2 * 3 = " << argv[1] + argv[2] << endl;
-
-  return 0;
+  return a * b;
 }
 
-int charToNumber() {
-  
+int main()
+{
+  int a, b;
+  cout << "Please input two integers" << endl;
+  cin >> a;
+  cin >> b;
+  int result = product(a, b);
+  cout << a << " * " << b << " = " << result << endl;
+  return 0;
 }
