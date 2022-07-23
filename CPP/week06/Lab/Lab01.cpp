@@ -25,4 +25,5 @@ void swap_init(int a, int b)
 
 void swap_pointer(int *a, int *b)
 {
+  
 }
